@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="dist/output.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="grid bg-black text-white">
+    <img
+      src="1.jpg"
+      alt="planet"
+      class="grid justify-self-center mt-[6vh] w-[clamp(450px,50%,52%)]"
+    />
+    <br />
+    <form class="grid justify-self-center mt-3 ml-[3.2vw]">
+      <input placeholder="Search" required id="input" class="bg-pink-700" />
+      <input
+        type="submit"
+        value="Search"
+        class="mt-[2vh] cursor-pointer bg-red-500 hidden"
+        id="btn"
+      />
+    </form>
+    <div
+      class="grid grid-cols-3 gap-8 mt-[8vh] justify-self-center w-[80%] bg-black md:grid-cols-2 sm:grid-cols-1"
+      id="div"
+    ></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
